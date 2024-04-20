@@ -38,7 +38,7 @@ export default function Footer() {
                         <a
                           className="hover:text-green-500  text-green-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                           href="https://www.facebook.com/people/Birhan-Aschalew/pfbid02djV5DMAcXJzJtLzw3pTATs959tWmfijuuaXcLHKVqgj9ZffpKSe9c7Qb3L3orF8sl/?mibextid=ZbWKwL"
-                          
+                          target="_blank" rel="noopener noreferrer"
                         >
                           <i className="text-blueGray-400 fab fa-facebook text-lg leading-lg  " />
                           <span className="lg:hidden inline-block ml-2">
@@ -51,7 +51,7 @@ export default function Footer() {
                         <a
                           className="hover:text-green-500  text-green-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                           href="https://twitter.com/"
-                          
+                          target="_blank" rel="noopener noreferrer"
                         >
                           <i className="text-blueGray-400 fab fa-twitter text-lg leading-lg " />
                           <span className="lg:hidden inline-block ml-2">
@@ -65,7 +65,7 @@ export default function Footer() {
                         <a
                           className="hover:text-green-500  text-green-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                           href="https://www.instagram.com/_birhan_aschalew/"
-                          
+                          target="_blank" rel="noopener noreferrer"
                         >
                           <i className="text-blueGray-400 fab fa-instagram text-lg leading-lg " />
                           <span className="lg:hidden inline-block ml-2">
@@ -77,7 +77,7 @@ export default function Footer() {
                         <a
                           className="hover:text-green-500  text-green-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                           href="https://www.linkedin.com/company/payron/"
-                          
+                          target="_blank" rel="noopener noreferrer"
                         >
                           <i className="text-blueGray-400 fab fa-linkedin-in text-lg leading-lg " />
                           <span className="lg:hidden inline-block ml-2">
