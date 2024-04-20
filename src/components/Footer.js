@@ -102,7 +102,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href=""  role="button" 
+                        href="https://www.linkedin.com/company/payron/"  role="button" 
                       >
                          About
                       </a>
@@ -119,7 +119,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="" role="button" 
+                        href="https://www.linkedin.com/company/payron/" role="button" 
                       >
               
                       </a>
@@ -134,7 +134,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="" role="button" 
+                        href="https://www.linkedin.com/company/payron/" role="button" 
                       >
                       Our Services
                       </a>
@@ -142,7 +142,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="" role="button" 
+                        href="https://et.linkedin.com/in/birhan-aschalew-9a33a2232" role="button" 
                       >
                         Contact us
                       </a>
