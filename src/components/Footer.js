@@ -102,7 +102,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href=""
+                        href=""  role="button" 
                       >
                          About
                       </a>
@@ -110,7 +110,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href=""
+                        href="" role="button" 
                       >
                       Article
                       </a>
@@ -119,7 +119,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href=""
+                        href="" role="button" 
                       >
               
                       </a>
@@ -134,7 +134,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href=""
+                        href="" role="button" 
                       >
                       Our Services
                       </a>
@@ -142,7 +142,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href=""
+                        href="" role="button" 
                       >
                         Contact us
                       </a>
@@ -152,7 +152,7 @@ export default function Footer() {
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://www.facebook.com/people/Birhan-Aschalew/pfbid02djV5DMAcXJzJtLzw3pTATs959tWmfijuuaXcLHKVqgj9ZffpKSe9c7Qb3L3orF8sl/?mibextid=ZbWKwL"
-                      >
+                        role="button"  >
                         Facebook
                       </a>
                     </li>
