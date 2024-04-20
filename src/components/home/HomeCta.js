@@ -11,14 +11,15 @@ export default function HomeCta() {
           <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
             <div className="inline-flex rounded-md shadow">
               <a
-                href="#"
+                href="https://www.linkedin.com/company/payron/"
+                rel="noopener noreferrer" 
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-900 hover:bg-green-700"
               >contact us
               </a>
             </div>
             <div className="ml-3 inline-flex rounded-md shadow">
               <a
-                href="#"
+                href="https://www.linkedin.com/company/payron/"
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-green-600 bg-white hover:bg-green-50"
               >
                 Get started
