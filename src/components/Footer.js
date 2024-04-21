@@ -102,7 +102,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.linkedin.com/company/payron/"  role="button" 
+                        href="https://www.linkedin.com/company/payron/"  role="button"  target="_blank" rel="noopener noreferrer"
                       >
                          About
                       </a>
@@ -110,7 +110,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.linkedin.com/company/payron/" role="button" 
+                        href="https://www.linkedin.com/company/payron/" role="button" target="_blank" rel="noopener noreferrer"
                       >
                       Article
                       </a>
@@ -119,7 +119,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.linkedin.com/company/payron/" role="button" 
+                        href="https://www.linkedin.com/company/payron/" role="button" target="_blank" rel="noopener noreferrer"
                       >
               
                       </a>
@@ -134,7 +134,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.linkedin.com/company/payron/" role="button" 
+                        href="https://www.linkedin.com/company/payron/" role="button" target="_blank" rel="noopener noreferrer"
                       >
                       Our Services
                       </a>
@@ -142,7 +142,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://et.linkedin.com/in/birhan-aschalew-9a33a2232" role="button" 
+                        href="https://et.linkedin.com/in/birhan-aschalew-9a33a2232" role="button" target="_blank" rel="noopener noreferrer"
                       >
                         Contact us
                       </a>
@@ -152,7 +152,7 @@ export default function Footer() {
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://www.facebook.com/people/Birhan-Aschalew/pfbid02djV5DMAcXJzJtLzw3pTATs959tWmfijuuaXcLHKVqgj9ZffpKSe9c7Qb3L3orF8sl/?mibextid=ZbWKwL"
-                        role="button"  >
+                        role="button" target="_blank" rel="noopener noreferrer" >
                         Facebook
                       </a>
                     </li>
@@ -167,8 +167,8 @@ export default function Footer() {
               <div className="text-sm text-blueGray-500 font-semibold py-1">
                 Copyright © {new Date().getFullYear()}  by{" "}
                 <a
-                  href="https://bellx-software-solution.netlify.app/"
-                  className="text-blueGray-500 hover:text-blueGray-800"
+                  href="https://bellx-software-solution.netlify.app/" target="_blank" rel="noopener noreferrer"
+                  className="text-blueGray-500 hover:text-blueGray-800" 
                 >
                    Payron Digital Marketing Firm
                 </a>
@@ -180,7 +180,7 @@ export default function Footer() {
               <div className="text-sm text-blueGray-500 font-semibold py-1">
                 Developed ©   by{" "}
                 <a
-                  href="https://bellx-software-solution.netlify.app/"
+                  href="https://bellx-software-solution.netlify.app/" target="_blank" rel="noopener noreferrer"
                   className="text-blueGray-500 hover:text-blueGray-800"
                 >
                    Bellx Software Solution
