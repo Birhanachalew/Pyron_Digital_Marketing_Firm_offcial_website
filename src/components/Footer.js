@@ -69,7 +69,7 @@ export default function Footer() {
                         >
                           <i className="text-blueGray-400 fab fa-instagram text-lg leading-lg " />
                           <span className="lg:hidden inline-block ml-2">
-                            Tweet
+                            Post
                           </span>
                         </a>
                       </li>
