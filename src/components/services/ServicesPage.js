@@ -26,11 +26,10 @@ export default function ServicesPage() {
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
                   <h1 className="text-white font-semibold text-5xl">
-                  Faire passer votre projet au niveau supérieur.
+                  Take your project to the next level.
                   </h1>
                   <p className="mt-4 text-lg text-white">
-                  Notre philosophie, nos valeurs et nos expertises dans le domaine du digital vous offrent notre compréhension en même temps que notre capacité à imaginer les meilleurs moyens pour développer votre productivité,
-                   votre activité en ligne, votre visibilité sur le web et donc votre chiffre d’affaires.
+                  Our philosophy, values and expertise in the field of digital technology offer you our understanding at the same time as our ability to imagine the best ways to develop your productivity, your online activity, your visibility on the web and therefore your turnover.
                   </p>
                 </div>
               </div>
@@ -67,17 +66,14 @@ export default function ServicesPage() {
                   <i className="fas fa-user-friends text-xl"></i>
                 </div>
                 <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                Travailler avec nous est un plaisir
+                Working with us is a pleasure
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                Notre philosophie, nos valeurs et nos expertises dans le domaine du digital 
-                vous offrent notre compréhension en même temps que notre capacité à imaginer 
-                les meilleurs moyens pour développer votre productivité, votre activité 
-                en ligne, votre visibilité sur le web et donc votre chiffre d’affaires.
+                Our philosophy, values and expertise in the field of digital technology offer you our understanding at the same time as our ability to imagine the best ways to develop your productivity, your online activity, your visibility on the web and therefore your turnover.
                 </p>
            
                 <Link to="/" className="font-bold text-blueGray-700 mt-8">
-                Demander Un Devis
+                Ask for a quotation
                 </Link>
               </div>
 
@@ -92,12 +88,11 @@ export default function ServicesPage() {
                    
                     <h4 className="text-xl font-bold text-green-600">
                       
-                        Nos experts
+                        Our experts
                     </h4>
                     <p className="text-md font-light mt-2 ">
                    
-                    une équipe performante a un objectif et des valeurs clairement définis, des méthodes de travail efficaces, un état d’esprit d’excellence et de 
-                    respect mutuel, et une forte implication des membres dans la réussite du projet
+                    a successful team has a clearly defined objective and values, effective working methods, a state of mind of excellence and mutual respect, and strong involvement of members in the success of the project
                     </p>
                   </blockquote>
                 </div>
