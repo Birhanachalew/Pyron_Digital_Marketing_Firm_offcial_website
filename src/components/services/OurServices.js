@@ -3,39 +3,39 @@ import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@her
 
 const features = [
   {
-    name: 'Site Web',
+    name: 'website',
     description:
-      'Nous développons des sites internet qui associent créativité, technologie de pointe et facilité d’utilisation. Que vous souhaitiez informer, communiquer, vendre ou recruter, Eminence, votre agence de solutions digitales à Tunis, conçoit votre site sur-mesure.',
+      'We develop websites that combine creativity, cutting-edge technology and ease of use. Whether you want to inform, communicate, sell or recruit, Eminence, your digital solutions agency in Tunis, designs your tailor-made site.',
     icon: GlobeAltIcon,
   },
   {
-    name: 'Référencement Naturel(SEO)',
+    name: 'Search engine optimization(SEO)',
     description:
-      'Notre Equipe SEO/SEA, met en place une feuille de route de référencement qui s’harmonie avec les exigences de votre projet de visibilité Une étude des mots se fixe soigneusement pour rentabiliser la mission de référencement.',
+      'Our SEO/SEA team sets up a referencing roadmap that harmonizes with the requirements of your visibility project. A study of words is carefully fixed to make the referencing mission profitable.',
     icon: ScaleIcon,
   },
   {
-    name: 'Application Web',
+    name: 'Web Application',
     description:
-      'Nous développons des Application web sur mesure, Progressive web apps, applications interactives ou Intégration API et outils tiers, nous vous proposons la technologie la plus adaptée à vos objectifs et à votre budget.',
+      'We develop custom web applications, Progressive web apps, interactive applications or API integration and third-party tools, we offer you the technology best suited to your goals and budget.',
     icon: AnnotationIcon,
   },
   {
-    name: 'Application Mobile',
+    name: 'Mobile Application',
     description:
-      'Nous développons des applications mobiles natives sur les plateformes les plus populaires (Android et iOS) conformément aux dernières tendances UX, ainsi que des applications hybrides multiplateformes utilisant React Native ou Flutter ainsi que des jeux mobiles utilisant Unity.',
+      'We are developing native mobile applications on the most popular platforms (Android and iOS) according to the latest UX trends, as well as multi-platform hybrid applications using React Native or Flutter as well as mobile games using Unity.',
     icon: LightningBoltIcon,
   },
   {
-    name: 'Marketing Digital',
+    name: 'Digital Marketing',
     description:
-      'Eminence, agence de solutions digitales à Tunis, exploite des tactiques digitales qui génèrent du trafic, optimisent vos chances d’être remarqué par votre audience cible et vous positionne dans un cycle vertueux d’augmentation votre chiffre d’affaires.',
+      'Eminence, a digital solutions agency in Tunis, exploits digital tactics that generate traffic, maximize your chances of being noticed by your target audience, and positioning you in a virtuous cycle of increasing your turnover.',
     icon: AnnotationIcon,
   },
   {
-    name: 'Réseaux sociaux',
+    name: 'Social networks',
     description:
-      'Désormais incontournables, les réseaux sociaux vous offrent la possibilité de communiquer plus efficacement avec votre cible et d’acquérir de nouveaux clients. Eminence, votre agence digitale à Tunis, utilise des techniques pionnières pour bénéficier au mieux de ces canaux de communications.',
+      'Now a must, social networks offer you the opportunity to communicate more effectively with your target and acquire new customers. Eminence, your digital agency in Tunis, uses pioneering techniques to benefit from these communication channels to the best of their ability.',
     icon: AnnotationIcon,
   },
 ]
@@ -50,8 +50,7 @@ export default function OurServices() {
           Our Services
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-          Notre expertise comprend un ensemble de solutions complémentaires
-           pour permettre à votre entreprise un positionnement performant.
+          Our expertise includes a set of complementary solutions to enable your company to position
           </p>
         </div>
 
