@@ -13,8 +13,8 @@ export default function NavLinkWebsite({ to, children }) {
          
             className={
                 match
-                    ? 'inline-flex items-center px-1 pt-1 border-b-2 border-green-400 text-sm text-white font-medium leading-5 text-white-900 focus:outline-none focus:border-white-700 transition duration-150 ease-in-out'
-                    : 'inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-white text-sm font-medium leading-5 text-white-500 hover:text-white-700 hover:border-green-500 focus:outline-none focus:text-green-700 focus:border-white-300 transition duration-150 ease-in-out'
+                    ? 'inline-flex items-center px-1 pt-1 border-b-2 border-green-400 text-sm text-gray-900 font-medium leading-5 text-gray-900 focus:outline-none focus:border-white-700 transition duration-150 ease-in-out'
+                    : 'inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-gray-900 text-sm font-medium leading-5 text-gray-900 hover:text-green-700 hover:border-green-500 focus:outline-none focus:text-green-700 focus:border-white-300 transition duration-150 ease-in-out'
             }
         >
             {children}
