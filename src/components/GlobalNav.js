@@ -17,7 +17,7 @@ function classNames(...classes) {
 
 export default function GlobalNav() {
   return (
-    <Disclosure as="nav" className="bg-green-50">
+    <Disclosure as="nav" className="bg-green">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
