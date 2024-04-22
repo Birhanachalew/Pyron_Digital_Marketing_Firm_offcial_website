@@ -11,7 +11,7 @@ const navigation = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about"},
   { name: "Services", href: "/services" },
-  { name: "Contact", href: "/contact"},
+  { name: "Contact", href: "contact"},
 ];
 
 
@@ -143,32 +143,21 @@ export default function GlobalNav() {
           <Disclosure.Panel className="sm:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
-                <link 
-                key={item.name}
-                to={item.href}
-                className="block px-1 py-2">
-                
-                </link>
-
-
-
-              //   <Disclosure.Button
-              //     key={item.name}
-              //     as="a"
-              //     href={item.href}
-              //     className={classNames(
-              //       item.current
-              //         ? "bg-green-900 text-white"
-              //         : "text-green-900 hover:bg-green-700 hover:text-white",
-              //       "block px-3 py-2 rounded-md text-base font-medium"
-              //     )}
-              //     aria-current={item.current ? "page" : undefined}
-              //   >
-              //     {item.name}
-              //   </Disclosure.Button>
+                <Disclosure.Button
+                  key={item.name}
+                  as="a"
+                  href={item.href}
+                  className={classNames(
+                    item.current
+                      ? "bg-green-900 text-white"
+                      : "text-green-900 hover:bg-green-700 hover:text-white",
+                    "block px-3 py-2 rounded-md text-base font-medium"
+                  )}
+                  aria-current={item.current ? "page" : undefined}
+                >
+                  {item.name}
+                </Disclosure.Button>
               ))}
-
-
             </div>
           </Disclosure.Panel>
         </>
