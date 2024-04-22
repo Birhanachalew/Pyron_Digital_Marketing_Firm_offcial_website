@@ -71,7 +71,11 @@ export default function AboutPage() {
                 A trusted digital Marketing Firm.
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                PYRON Digital Marketing Firm is one of the most renowned web and mobile application development companies in Tunisia. mcarre technology has been founded by a Tunisian team and now benefits from the knowledge, skills and expertise of a multinational team. As such, we specialise in the development of web/mobile applications, the development of mobile applications, the SEO referencing, digital marketing, and the UI/UX design for start-ups and business customers.
+                Payron Digital Marketing is a dynamic firm based in Ethiopia, where Payron means fire. Just like fire amplifies warmth and light, we are here to amplify your business in the digital world. Our team of passionate experts combines innovative strategies and cutting-edge technologies to fuel your online presence and drive your business towards success.
+                
+           
+               Our team takes a customized approach, tailoring our strategies to fit your specific needs, target audience, and industry. We believe that every business is unique and deserves a personalized digital marketing solution. 
+               <br></br>Whether you're looking for a stunning website design, effective search engine optimization (SEO), engaging social media campaigns, or impactful pay-per-click (PPC) advertising, we've got you covered.
                 </p>
                 
               
@@ -91,6 +95,7 @@ export default function AboutPage() {
                        </h4>
                     <p className="text-md font-light mt-2 ">
                     Do not hesitate and contact us and we will go together to the next level
+                    
                     </p>
                   </blockquote>
                 </div>

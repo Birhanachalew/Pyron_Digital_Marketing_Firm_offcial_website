@@ -3,9 +3,9 @@ import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@her
 
 const features = [
   {
-    name: 'website',
+    name: 'Pay-Per-Click Advertising',
     description:
-      'We develop websites that combine creativity, cutting-edge technology and ease of use. Whether you want to inform, communicate, sell or recruit, Eminence, your digital solutions agency in Tunis, designs your tailor-made site.',
+      'PC involves creating and managing online advertising campaigns where advertisers pay a fee each time their ad is clicked. Digital marketing firms help businesses set up and optimize PPC campaigns on platforms such as Google Ads, Bing Ads, and social media advertising platforms',
     icon: GlobeAltIcon,
   },
   {
@@ -21,9 +21,9 @@ const features = [
     icon: AnnotationIcon,
   },
   {
-    name: 'Mobile Application',
+    name: 'Social Media Marketing',
     description:
-      'We are developing native mobile applications on the most popular platforms (Android and iOS) according to the latest UX trends, as well as multi-platform hybrid applications using React Native or Flutter as well as mobile games using Unity.',
+      'PAyron assist businesses in leveraging social media platforms like Facebook, Instagram, Twitter, and LinkedIn to promote their products or services. They develop social media strategies, create engaging content, manage social media accounts, and run targeted advertising campaigns.',
     icon: LightningBoltIcon,
   },
   {
@@ -33,9 +33,9 @@ const features = [
     icon: AnnotationIcon,
   },
   {
-    name: 'Social networks',
+    name: 'Content Marketing:',
     description:
-      'Now a must, social networks offer you the opportunity to communicate more effectively with your target and acquire new customers. Eminence, your digital agency in Tunis, uses pioneering techniques to benefit from these communication channels to the best of their ability.',
+      'Content marketing focuses on creating and distributing valuable, relevant, and informative content to attract and engage a target audience. Digital marketing firms help develop content strategies, produce blog posts, articles, videos, infographics, and other forms of content to enhance brand visibility and drive customer engagement.',
     icon: AnnotationIcon,
   },
 ]

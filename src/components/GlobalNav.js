@@ -45,12 +45,12 @@ export default function GlobalNav() {
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
                   <img
-                    className="block lg:hidden h-5 w-auto"
+                    className="block  h-5 w-auto"
                     src="../pubic/logo192.png"
                     alt="PYRON "
                   />
                   <img
-                    className="hidden lg:block h-5 w-auto"
+                    className="lg:block h-5 w-auto"
                     src="../public/logo512.png"
                     alt=""
                   />
