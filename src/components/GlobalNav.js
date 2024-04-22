@@ -4,16 +4,21 @@ import { Disclosure } from "@headlessui/react";
 import {  MenuIcon, XIcon } from "@heroicons/react/outline";
 import NavLinkWebsite from "./NavLinkWebsite";
 
+
+
 const navigation = [
   { name: "Home", href: "/" },
-  { name: "About", href: "about" },
+  { name: "About", href: "about"},
   { name: "Services", href: "services" },
-  { name: "Contact", href: "contact" },
+  { name: "Contact", href: "contact"},
 ];
+
+
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
+
 
 export default function GlobalNav() {
   return (
