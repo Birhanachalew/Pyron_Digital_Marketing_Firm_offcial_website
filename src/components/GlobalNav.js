@@ -17,9 +17,9 @@ const navigation = [
 
 
 
-// function classNames(...classes) {
-//   return classes.filter(Boolean).join(" ");
-// }
+function classNames(...classes) {
+  return classes.filter(Boolean).join(" ");
+}
 
 
 export default function GlobalNav() {
@@ -146,7 +146,15 @@ export default function GlobalNav() {
               {navigation.map((item) => (
                 <Link
                 key={item.name}
-                to={item.href}>
+                to={item.href}
+                className={classNames(
+                      item.current
+                        ? "bg-green-900 text-white"
+                        : "text-green-900 hover:bg-green-700 hover:text-white",
+                      "block px-3 py-2 rounded-md text-base font-medium"
+                    )}
+                    aria-current={item.current ? "page" : undefined}
+                  >
                   {item.name}
                 </Link>
                 // <Disclosure.Button
