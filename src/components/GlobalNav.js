@@ -4,13 +4,14 @@ import { Disclosure } from "@headlessui/react";
 import {  MenuIcon, XIcon } from "@heroicons/react/outline";
 import NavLinkWebsite from "./NavLinkWebsite";
 
+//import { Link } from "react-router-dom";
 
 
 const navigation = [
   { name: "Home", href: "/" },
-  { name: "About", href: "about"},
-  { name: "Services", href: "services" },
-  { name: "Contact", href: "contact"},
+  { name: "About", href: "/about"},
+  { name: "Services", href: "/services" },
+  { name: "Contact", href: "/contact"},
 ];
 
 
@@ -142,6 +143,8 @@ export default function GlobalNav() {
           <Disclosure.Panel className="sm:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
+
+
                 <Disclosure.Button
                   key={item.name}
                   as="a"
