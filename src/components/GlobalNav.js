@@ -3,7 +3,6 @@ import React from "react";
 import { Disclosure } from "@headlessui/react";
 import {  MenuIcon, XIcon } from "@heroicons/react/outline";
 import NavLinkWebsite from "./NavLinkWebsite";
-import { Link } from "react-router-dom";
 
 
 
@@ -41,7 +40,7 @@ export default function GlobalNav() {
 
                 
               </div>
-              <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start text-2xl  font-extrabold">
+              <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
                   <img
                     className="block lg:hidden h-5 w-auto"
@@ -143,27 +142,21 @@ export default function GlobalNav() {
           <Disclosure.Panel className="sm:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
-                // <Disclosure.Button
-                //   key={item.name}
-                //   as="a"
-                //   href={item.href}
-                //   className={classNames(
-                //     item.current
-                //       ? "bg-green-900 text-white"
-                //       : "text-green-900 hover:bg-green-700 hover:text-white",
-                //     "block px-3 py-2 rounded-md text-base font-medium"
-                //   )}
-                //   aria-current={item.current ? "page" : undefined}
-                // >
-                //   {item.name}
-                // </Disclosure.Button>
-                <Link>
-                
-                </Link>
-
-
+                <Disclosure.Button
+                  key={item.name}
+                  as="a"
+                  href={item.href}
+                  className={classNames(
+                    item.current
+                      ? "bg-green-900 text-white"
+                      : "text-green-900 hover:bg-green-700 hover:text-white",
+                    "block px-3 py-2 rounded-md text-base font-medium"
+                  )}
+                  aria-current={item.current ? "page" : undefined}
+                >
+                  {item.name}
+                </Disclosure.Button>
               ))}
-
             </div>
           </Disclosure.Panel>
         </>
