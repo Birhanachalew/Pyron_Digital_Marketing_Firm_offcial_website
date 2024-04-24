@@ -25,7 +25,7 @@ function ContactHero() {
                   Contact us.
                   </h1>
                   <p className="mt-4 text-lg text-white">
-                  Want to learn more about web marketing levers, let us know about your project. Mcarre Technology is responsible for supporting you in the development of your visibility that could make your business more efficient
+                  Want to learn more about web marketing levers, let us know about your project. Payron Digital Marketing is responsible for supporting you in the development of your visibility that could make your business more efficient
                   </p>
                 </div>
               </div>
@@ -55,7 +55,7 @@ function ContactHero() {
                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
                 
 
-We are a company developing web and mobile applications and web marketing in that has grown over the years to offer you the best services that may exist on the market..
+We are a company developing website and web marketing in that has grown over the years to offer you the best services that may exist on the market..
                 </p>
                 
               </div>
