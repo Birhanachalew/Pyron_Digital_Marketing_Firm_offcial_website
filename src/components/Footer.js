@@ -61,7 +61,7 @@ export default function Footer() {
                       <li className="flex items-center">
                         <a
                           className="hover:text-brandAccent text-brandHeadline px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                          href="https://www.instagram.com/_birhan_aschalew/"
+                          href="https://www.instagram.com/payronglobal/"
                           target="_blank" rel="noopener noreferrer"
                         >
                           <i className="text-slate-400 fab fa-instagram text-lg leading-lg " />
@@ -73,7 +73,7 @@ export default function Footer() {
                       <li className="flex items-center">
                         <a
                           className="hover:text-brandAccent text-brandHeadline px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                          href="https://www.linkedin.com/company/payron/"
+                          href="https://www.linkedin.com/company/payronglobal/?viewAsMember=true"
                           target="_blank" rel="noopener noreferrer"
                         >
                           <i className="text-slate-400 fab fa-linkedin-in text-lg leading-lg " />
@@ -162,27 +162,7 @@ export default function Footer() {
           <div className="flex flex-wrap items-center md:justify-between justify-center">
             <div className="w-full md:w-4/12 px-4 mx-auto text-center">
               <div className="text-sm text-slate-400 font-semibold py-1">
-                Copyright © {new Date().getFullYear()}  by{" "}
-                <a
-                  href="https://bellx-software-solution.netlify.app/" target="_blank" rel="noopener noreferrer"
-                  className="text-brandHeadline hover:text-brandAccent" 
-                >
-                   Payron Global
-                </a>
-                . All right reserved.
-              </div>
-            </div>
-
-            <div className="w-full md:w-4/12 px-4 mx-auto text-center">
-              <div className="text-sm text-slate-400 font-semibold py-1">
-                Developed ©   by{" "}
-                <a
-                  href="https://bellx-software-solution.netlify.app/" target="_blank" rel="noopener noreferrer"
-                  className="text-brandHeadline hover:text-brandAccent"
-                >
-                   Bellx Software Solution
-                </a>
-        
+                Copyright © 2026 Payron Global. All rights reserved.
               </div>
             </div>
           </div>

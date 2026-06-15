@@ -1,3 +1,18 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@keyframes service-card-rise {
+	0% {
+		opacity: 0;
+		transform: translate3d(0, 24px, 0) scale(0.98);
+	}
+	100% {
+		opacity: 1;
+		transform: translate3d(0, 0, 0) scale(1);
+	}
+}
+
+.service-card-animate {
+	animation: service-card-rise 2s ease both;
+}

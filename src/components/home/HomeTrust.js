@@ -15,17 +15,6 @@ const testimonials = [
   },
 ]
 
-const locations = [
-  {
-    city: 'Ethiopia',
-    details: 'Addis Ababa based support for regional clients and local brand work.',
-  },
-  {
-    city: 'Dubai',
-    details: 'Dubai presence for clients who need premium B2B positioning and faster coordination.',
-  },
-]
-
 export default function HomeTrust() {
   return (
     <section id="insights" className="relative overflow-hidden bg-white py-20">
@@ -34,10 +23,10 @@ export default function HomeTrust() {
         <div className="max-w-2xl">
           <p className="text-sm font-semibold uppercase tracking-[0.35em] text-brandHeadline">Trust</p>
           <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-slate-950 sm:text-4xl">
-            Refund policy, testimonials, and locations in one premium trust section.
+            Refund policy and testimonials in one premium trust section.
           </h2>
           <p className="mt-4 text-base leading-7 text-slate-600">
-            Payron Global signals confidence, client care, and international presence through clear proof points.
+            Payron Global signals confidence and client care through clear proof points.
           </p>
         </div>
 
@@ -66,16 +55,6 @@ export default function HomeTrust() {
               ))}
             </div>
           </article>
-        </div>
-
-        <div className="mt-6 grid gap-6 md:grid-cols-2">
-          {locations.map((location) => (
-            <article key={location.city} className="rounded-[2rem] border border-brandHeadline/10 bg-slate-50 p-6 shadow-lg">
-              <p className="text-sm uppercase tracking-[0.3em] text-brandHeadline">Location</p>
-              <h3 className="mt-3 text-2xl font-bold text-slate-950">{location.city}</h3>
-              <p className="mt-3 text-sm leading-6 text-slate-600">{location.details}</p>
-            </article>
-          ))}
         </div>
       </div>
     </section>

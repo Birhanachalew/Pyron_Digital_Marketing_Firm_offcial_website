@@ -39,7 +39,7 @@ export default function HomeWorks() {
         <div className="max-w-2xl">
           <p className="text-sm font-semibold uppercase tracking-[0.35em] text-brandHeadline">Our Works</p>
           <h2 className="mt-3 text-3xl font-extrabold tracking-tight sm:text-4xl">
-            Separate sections for creative, marketing, commercial ads, and branding.
+            Creative, marketing, commercial ads, and branding.
           </h2>
           <p className="mt-4 text-base leading-7 text-slate-300">
             This is arranged as a premium architectural layout with numbered blocks so each discipline feels like its own story.

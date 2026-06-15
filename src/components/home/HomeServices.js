@@ -100,10 +100,11 @@ function HomeServices() {
               ref={scrollerRef}
               className="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory scroll-smooth"
             >
-              {services.map((service) => (
+              {services.map((service, index) => (
                 <article
                   key={service.title}
-                  className="group min-w-[300px] max-w-sm flex-none snap-start rounded-[1.75rem] border border-white/10 bg-white p-6 text-left shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_24px_60px_rgba(123,47,255,0.2)]"
+                  className="service-card-animate group min-w-[300px] max-w-sm flex-none snap-start rounded-[1.75rem] border border-white/10 bg-white p-6 text-left shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_24px_60px_rgba(123,47,255,0.2)]"
+                  style={{ animationDelay: `${index * 140}ms` }}
                 >
                   <div className="flex h-14 w-14 items-center justify-center rounded-full bg-brandButton text-white shadow-md transition-transform duration-300 group-hover:scale-110">
                     <i className={`${service.icon} text-xl`}></i>

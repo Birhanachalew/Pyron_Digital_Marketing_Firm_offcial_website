@@ -35,54 +35,54 @@ function HomeFeatures() {
             <div className="w-full md:w-6/12 px-4">
               <div className="flex flex-wrap">
                 <div className="w-full md:w-6/12 px-4">
-                  <div className="relative flex flex-col mt-4">
-                    <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                  <div className="group relative mt-4 overflow-hidden rounded-[1.5rem] border border-white/10 bg-white p-1 shadow-[0_18px_45px_rgba(15,23,42,0.08)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_24px_60px_rgba(123,47,255,0.16)]">
+                    <div className="rounded-[1.35rem] bg-gradient-to-br from-white via-white to-brandHeadline/5 px-4 py-5 transition-colors duration-300 group-hover:from-brandHeadline/5 group-hover:to-brandButton/10">
+                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 rounded-full bg-white shadow-md ring-1 ring-brandHeadline/10 transition-transform duration-300 group-hover:scale-105">
                         <i className="fas fa-sitemap"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold text-brandHeadline">
                       Availability
                       </h6>
-                      <p className="mb-4 text-blueGray-500">
+                      <p className="mb-0 text-blueGray-500">
                       A team dedicated to your project to ensure that your objectives are achieved
                       </p>
                     </div>
                   </div>
-                  <div className="relative flex flex-col min-w-0">
-                    <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                  <div className="group relative mt-4 overflow-hidden rounded-[1.5rem] border border-white/10 bg-white p-1 shadow-[0_18px_45px_rgba(15,23,42,0.08)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_24px_60px_rgba(123,47,255,0.16)]">
+                    <div className="rounded-[1.35rem] bg-gradient-to-br from-white via-white to-brandHeadline/5 px-4 py-5 transition-colors duration-300 group-hover:from-brandHeadline/5 group-hover:to-brandButton/10">
+                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 rounded-full bg-white shadow-md ring-1 ring-brandHeadline/10 transition-transform duration-300 group-hover:scale-105">
                         <i className="fas fa-drafting-compass"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold text-brandHeadline">
                       Dynamic
                       </h6>
-                      <p className="mb-4 text-blueGray-500">
+                      <p className="mb-0 text-blueGray-500">
                       Dynamic and proactive management of your projects
                       </p>
                     </div>
                   </div>
                 </div>
                 <div className="w-full md:w-6/12 px-4">
-                  <div className="relative flex flex-col min-w-0 mt-4">
-                    <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                  <div className="group relative mt-4 overflow-hidden rounded-[1.5rem] border border-white/10 bg-white p-1 shadow-[0_18px_45px_rgba(15,23,42,0.08)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_24px_60px_rgba(123,47,255,0.16)]">
+                    <div className="rounded-[1.35rem] bg-gradient-to-br from-white via-white to-brandHeadline/5 px-4 py-5 transition-colors duration-300 group-hover:from-brandHeadline/5 group-hover:to-brandButton/10">
+                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 rounded-full bg-white shadow-md ring-1 ring-brandHeadline/10 transition-transform duration-300 group-hover:scale-105">
                         <i className="fas fa-newspaper"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold text-brandHeadline">innovative</h6>
-                      <p className="mb-4 text-blueGray-500">
+                      <p className="mb-0 text-blueGray-500">
                       Innovative and cutting-edge digital solutions to propel your business online
                       </p>
                     </div>
                   </div>
-                  <div className="relative flex flex-col min-w-0">
-                    <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                  <div className="group relative mt-4 overflow-hidden rounded-[1.5rem] border border-white/10 bg-white p-1 shadow-[0_18px_45px_rgba(15,23,42,0.08)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_24px_60px_rgba(123,47,255,0.16)]">
+                    <div className="rounded-[1.35rem] bg-gradient-to-br from-white via-white to-brandHeadline/5 px-4 py-5 transition-colors duration-300 group-hover:from-brandHeadline/5 group-hover:to-brandButton/10">
+                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 rounded-full bg-white shadow-md ring-1 ring-brandHeadline/10 transition-transform duration-300 group-hover:scale-105">
                         <i className="fas fa-file-alt"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold text-brandHeadline">
                       Creativity
                       </h6>
-                      <p className="mb-4 text-blueGray-500">
+                      <p className="mb-0 text-blueGray-500">
                       Overflowing creativity 3 to distinguish you from your competitors
                       </p>
                     </div>
