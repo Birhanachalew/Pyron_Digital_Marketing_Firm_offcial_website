@@ -2,36 +2,24 @@ import React from "react";
 
 import { Disclosure } from "@headlessui/react";
 import {  MenuIcon, XIcon } from "@heroicons/react/outline";
-import NavLinkWebsite from "./NavLinkWebsite";
 import { Link } from "react-router-dom";
 
-//import { Link } from "react-router-dom";
-
-
 const navigation = [
-  { name: "Home", href: "/" },
-  { name: "About", href: "/about"},
-  { name: "Services", href: "/services" },
-  { name: "Contact", href: "contact"},
+  { name: "Work", href: "/#work" },
+  { name: "Services", href: "/#services" },
+  { name: "About", href: "/about" },
+  { name: "Insights", href: "/#insights" },
 ];
-
-
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
-
 
 export default function GlobalNav() {
   return (
-    <Disclosure as="nav" className="bg-green">
+    <Disclosure as="nav" className="sticky top-0 z-50 border-b border-slate-200/70 bg-white/80 backdrop-blur-xl">
       {({ open }) => (
         <>
-          <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-            <div className="relative flex items-center justify-between h-16">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="relative flex h-20 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-green-800 hover:text-white hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white p-2 text-slate-900 shadow-sm transition hover:border-brandHeadline hover:text-brandHeadline focus:outline-none focus:ring-2 focus:ring-brandHeadline/20">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XIcon className="block h-6 w-6" aria-hidden="true" />
@@ -40,138 +28,60 @@ export default function GlobalNav() {
                   )}
                 </Disclosure.Button>
 
-                
               </div>
-              <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-                <div className="flex-shrink-0 flex items-center">
-                  <img
-                    className="block  h-5 w-auto"
-                    src="../pubic/logo192.png"
-                    alt="PYRON "
-                  />
-                  <img
-                    className="lg:block h-5 w-auto"
-                    src="../public/logo512.png"
-                    alt=""
-                  />
-                </div>
-                <div className="hidden sm:block sm:ml-6">
-                  <div className="flex space-x-4">
-                  {navigation.map((item) => (
-                      <div className="px-1 py-2" key={item.name}>
-                  <NavLinkWebsite to={item.href} match>
-                  {item.name}
-                    </NavLinkWebsite>
-                    </div>
-                      ))}
-                
-                  
-              
+              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                <Link to="/" className="flex items-center gap-3">
+                  <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-slate-950 text-sm font-semibold text-white shadow-lg shadow-slate-950/15">
+                    PG
+                  </span>
+                  <div>
+                    <p className="text-sm font-semibold uppercase tracking-[0.32em] text-brandHeadline">Payron Global</p>
+                    <p className="text-xs text-slate-500">Ethiopia · Dubai</p>
+                  </div>
+                </Link>
+
+                <div className="hidden sm:ml-10 sm:block">
+                  <div className="flex items-center gap-8">
+                    {navigation.map((item) => (
+                      <a
+                        key={item.name}
+                        href={item.href}
+                        className="text-sm font-medium text-slate-600 transition hover:text-brandHeadline"
+                      >
+                        {item.name}
+                      </a>
+                    ))}
                   </div>
                 </div>
               </div>
-              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <div className="bg-geen-900 p-1 rounded-full text-green-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-green-800 focus:ring-white">
-                  
-                  
-                  <div
-                    className={
-                      "lg:flex flex-grow items-center bg-white lg:bg-opacity-0 lg:shadow-none hidden"
-                    }
-                  >
-                
-                    <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-                      <li className="flex items-center">
-                        <a
-                          className="hover:text-green-500  text-green-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                          href="https://www.facebook.com/people/Birhan-Aschalew/pfbid02djV5DMAcXJzJtLzw3pTATs959tWmfijuuaXcLHKVqgj9ZffpKSe9c7Qb3L3orF8sl/?mibextid=ZbWKwL"
-                          target="_blank" rel="noopener noreferrer" 
-                        >
-                          <i className="text-blueGray-400 fab fa-facebook text-lg leading-lg  " />
-                          <span className="lg:hidden inline-block ml-2">
-                            Share
-                          </span>
-                        </a>
-                      </li>
-
-                      <li className="flex items-center">
-                        <a
-                          className="hover:text-green-500  text-green-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                          href="https://twitter.com/" rel="noopener noreferrer" 
-                          target="_blank"
-                        >
-                          <i className="text-blueGray-400 fab fa-twitter text-lg leading-lg " />
-                          <span className="lg:hidden inline-block ml-2">
-                            Tweet
-                          </span>
-                        </a>
-                      </li>
-
-
-                      <li className="flex items-center">
-                        <a
-                          className="hover:text-green-500  text-green-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                          href="https://www.instagram.com/_birhan_aschalew/"
-                          target="_blank" rel="noopener noreferrer" 
-                        >
-                          <i className="text-blueGray-400 fab fa-instagram text-lg leading-lg " />
-                          <span className="lg:hidden inline-block ml-2">
-                            Tweet
-                          </span>
-                        </a>
-                      </li>
-                      <li className="flex items-center">
-                        <a
-                          className="hover:text-green-500  text-green-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                          href="https://www.linkedin.com/company/payron/"
-                          target="_blank" rel="noopener noreferrer" 
-                        >
-                          <i className="text-blueGray-400 fab fa-linkedin-in text-lg leading-lg " />
-                          <span className="lg:hidden inline-block ml-2">
-                            post
-                          </span>
-                        </a>
-                      </li>
-                    </ul>
-                
-                  </div>
-                
-                </div>
+              <div className="hidden items-center gap-4 sm:flex">
+                <a
+                  href="https://www.linkedin.com/company/payron/"
+                  className="inline-flex items-center justify-center rounded-full bg-brandButton px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-brandButton/20 transition-transform duration-300 hover:-translate-y-0.5 hover:bg-brandAccent"
+                >
+                  Let’s Talk
+                </a>
               </div>
             </div>
           </div>
 
           <Disclosure.Panel className="sm:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1">
+            <div className="space-y-2 px-4 pb-4 pt-2">
               {navigation.map((item) => (
-                <Link
-                key={item.name}
-                to={item.href}
-                className={classNames(
-                      item.current
-                        ? "bg-green-900 text-white"
-                        : "text-green-900 hover:bg-green-700 hover:text-white",
-                      "block px-3 py-2 rounded-md text-base font-medium"
-                    )}
-                    aria-current={item.current ? "page" : undefined}
-                  >
+                <a
+                  key={item.name}
+                  href={item.href}
+                  className="block rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm font-medium text-slate-700 transition hover:border-brandHeadline hover:text-brandHeadline"
+                >
                   {item.name}
-                </Link>
-                // <Disclosure.Button
-                //   key={item.name}
-                //   as="a"
-                //   href={item.href}
-                //   className={classNames(
-                //     item.current
-                //       ? "bg-green-900 text-white"
-                //       : "text-green-900 hover:bg-green-700 hover:text-white",
-                //     "block px-3 py-2 rounded-md text-base font-medium"
-                //   )}
-                //   aria-current={item.current ? "page" : undefined}
-                // >
-                //   {item.name}
-                // </Disclosure.Button>
+                </a>
               ))}
+              <a
+                href="https://www.linkedin.com/company/payron/"
+                className="mt-2 block rounded-2xl bg-brandButton px-4 py-3 text-center text-sm font-semibold text-white shadow-lg shadow-brandButton/20"
+              >
+                Let’s Talk
+              </a>
             </div>
           </Disclosure.Panel>
         </>

@@ -24,7 +24,7 @@ function HomeFeatures() {
                   >
                    
                   </svg>
-                  <h4 className="text-xl font-bold text-neutral text-green-900 hover:bg-green-700">
+                  <h4 className="text-xl font-bold text-neutral text-brandHeadline">
                   Why choose us?
                   </h4>
                 
@@ -40,7 +40,7 @@ function HomeFeatures() {
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-sitemap"></i>
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold text-green-600">
+                      <h6 className="text-xl mb-1 font-semibold text-brandHeadline">
                       Availability
                       </h6>
                       <p className="mb-4 text-blueGray-500">
@@ -53,7 +53,7 @@ function HomeFeatures() {
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-drafting-compass"></i>
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold text-green-600">
+                      <h6 className="text-xl mb-1 font-semibold text-brandHeadline">
                       Dynamic
                       </h6>
                       <p className="mb-4 text-blueGray-500">
@@ -68,7 +68,7 @@ function HomeFeatures() {
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-newspaper"></i>
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold text-green-600">innovative</h6>
+                      <h6 className="text-xl mb-1 font-semibold text-brandHeadline">innovative</h6>
                       <p className="mb-4 text-blueGray-500">
                       Innovative and cutting-edge digital solutions to propel your business online
                       </p>
@@ -79,7 +79,7 @@ function HomeFeatures() {
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-file-alt"></i>
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold text-green-600">
+                      <h6 className="text-xl mb-1 font-semibold text-brandHeadline">
                       Creativity
                       </h6>
                       <p className="mb-4 text-blueGray-500">

@@ -18,7 +18,7 @@ export default function ServicesPage() {
           >
             <span
               id="blackOverlay"
-              className="w-full h-full absolute opacity-80 bg-green-900"
+              className="w-full h-full absolute opacity-80 bg-brandAccent"
             ></span>
           </div>
           <div className="container relative mx-auto">
@@ -62,7 +62,7 @@ export default function ServicesPage() {
 
             <div className="flex flex-wrap items-center mt-32">
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
-                <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-green-600">
+                <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-brandButton">
                   <i className="fas fa-user-friends text-xl"></i>
                 </div>
                 <h3 className="text-3xl mb-2 font-semibold leading-normal">
@@ -72,13 +72,13 @@ export default function ServicesPage() {
                 Our philosophy, values and expertise in the field of digital technology offer you our understanding at the same time as our ability to imagine the best ways to develop your productivity, your online activity, your visibility on the web and therefore your turnover.
                 </p>
            
-                <Link to="/" className="font-bold text-blueGray-700 mt-8">
+                <Link to="/" className="font-bold text-brandHeadline hover:text-brandAccent mt-8">
                 Ask for a quotation
                 </Link>
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-                <div className="relative flex flex-col min-w-0 break-words bg-green-100 w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
+                <div className="relative flex flex-col min-w-0 break-words bg-white border border-brandHeadline/20 w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
                   <img
                     alt="..."
                     src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
@@ -86,7 +86,7 @@ export default function ServicesPage() {
                   />
                   <blockquote className="relative p-8 mb-4">
                    
-                    <h4 className="text-xl font-bold text-green-600">
+                    <h4 className="text-xl font-bold text-brandHeadline">
                       
                         Our experts
                     </h4>

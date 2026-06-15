@@ -20,7 +20,7 @@ export default function AboutPage() {
           >
             <span
               id="blackOverlay"
-              className="w-full h-full absolute opacity-80 bg-green-900"
+              className="w-full h-full absolute opacity-80 bg-brandAccent"
             ></span>
           </div>
           <div className="container relative mx-auto">
@@ -51,7 +51,7 @@ export default function AboutPage() {
               y="0"
             >
               <polygon
-                className="text-blueGray-200 fill-green"
+                className="text-brandButton fill-current"
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
@@ -64,14 +64,14 @@ export default function AboutPage() {
 
             <div className="flex flex-wrap items-center mt-32">
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
-                <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-green-600">
+                <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-brandButton">
                   <i className="fas fa-user-friends text-xl"></i>
                 </div>
-                <h3 className="text-3xl mb-2 font-semibold leading-normal text-green-900">
+                <h3 className="text-3xl mb-2 font-semibold leading-normal text-brandHeadline">
                 A trusted digital Marketing Firm.
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                Payron Digital Marketing is a dynamic firm based in Ethiopia, where Payron means fire. Just like fire amplifies warmth and light, we are here to amplify your business in the digital world. Our team of passionate experts combines innovative strategies and cutting-edge technologies to fuel your online presence and drive your business towards success.
+                Payron Global is a dynamic creative company with roots in Ethiopia and reach in Dubai. Just like fire amplifies warmth and light, we are here to amplify your business in the digital world. Our team of passionate experts combines innovative strategies and cutting-edge technologies to fuel your online presence and drive your business towards success.
                 
            
                Our team takes a customized approach, tailoring our strategies to fit your specific needs, target audience, and industry. We believe that every business is unique and deserves a personalized digital marketing solution. 
@@ -82,7 +82,7 @@ export default function AboutPage() {
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-                <div className="relative flex flex-col min-w-0 break-words bg-green-100 w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
+                <div className="relative flex flex-col min-w-0 break-words bg-white border border-brandHeadline/20 w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
                   <img
                     alt="..."
                     src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"

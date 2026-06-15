@@ -1,5 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
+import { useRef } from 'react'
 import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@heroicons/react/outline'
+import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/outline'
 
 const features = [
   {
@@ -41,33 +43,65 @@ const features = [
 ]
 
 export default function OurServices() {
+  const scrollerRef = useRef(null)
+
+  const scrollCards = (direction) => {
+    scrollerRef.current?.scrollBy({
+      left: direction === 'left' ? -360 : 360,
+      behavior: 'smooth',
+    })
+  }
+
   return (
-    <div className="py-12 bg-green-50">
+    <div className="relative overflow-hidden py-12 bg-slate-950 text-white">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(155,95,255,0.18),transparent_35%),radial-gradient(circle_at_bottom_right,rgba(123,47,255,0.14),transparent_30%)]" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="lg:text-center">
-          <h2 className="text-base text-green-600 font-semibold tracking-wide uppercase">Our Services</h2>
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+        <div className="relative lg:text-center">
+          <h2 className="text-base text-brandHeadline font-semibold tracking-wide uppercase">Our Services</h2>
+          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
           Our Services
           </p>
-          <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+          <p className="mt-4 max-w-2xl text-xl text-slate-300 lg:mx-auto">
           Our expertise includes a set of complementary solutions to enable your company to position
           </p>
         </div>
 
-        <div className="mt-10">
-          <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+        <div className="relative mt-10">
+          <div className="mb-6 flex items-center justify-end gap-3">
+            <button
+              type="button"
+              onClick={() => scrollCards('left')}
+              className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-white/10 text-white transition-transform duration-300 hover:-translate-y-0.5 hover:bg-brandButton"
+              aria-label="Scroll services left"
+            >
+              <ChevronLeftIcon className="h-5 w-5" />
+            </button>
+            <button
+              type="button"
+              onClick={() => scrollCards('right')}
+              className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-white/10 text-white transition-transform duration-300 hover:-translate-y-0.5 hover:bg-brandButton"
+              aria-label="Scroll services right"
+            >
+              <ChevronRightIcon className="h-5 w-5" />
+            </button>
+          </div>
+          <div
+            ref={scrollerRef}
+            className="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory scroll-smooth"
+          >
             {features.map((feature) => (
-              <div key={feature.name} className="relative">
-                <dt>
-                  <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-green-500 text-white">
-                    <feature.icon className="h-6 w-6" aria-hidden="true" />
-                  </div>
-                  <p className="ml-16 text-lg leading-6 font-medium text-green-600">{feature.name}</p>
-                </dt>
-                <dd className="mt-2 ml-16 text-base text-gray-500">{feature.description}</dd>
-              </div>
+              <article
+                key={feature.name}
+                className="group min-w-[300px] max-w-sm flex-none snap-start rounded-[1.75rem] border border-white/10 bg-white/5 p-6 shadow-2xl backdrop-blur transition-all duration-300 hover:-translate-y-2 hover:border-brandHeadline/30 hover:shadow-[0_24px_60px_rgba(155,95,255,0.18)]"
+              >
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-brandButton text-white shadow-md transition-transform duration-300 group-hover:scale-110">
+                  <feature.icon className="h-6 w-6" aria-hidden="true" />
+                </div>
+                <p className="mt-5 text-lg leading-6 font-medium text-brandHeadline transition-colors duration-300 group-hover:text-brandAccent">{feature.name}</p>
+                <p className="mt-3 text-base leading-6 text-slate-300">{feature.description}</p>
+              </article>
             ))}
-          </dl>
+          </div>
         </div>
       </div>
     </div>

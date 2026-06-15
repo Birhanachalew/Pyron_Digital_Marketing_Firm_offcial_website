@@ -14,7 +14,7 @@ function ContactHero() {
           >
             <span
               id="blackOverlay"
-              className="w-full h-full absolute opacity-80 bg-green-900"
+              className="w-full h-full absolute opacity-80 bg-brandAccent"
             ></span>
           </div>
           <div className="container relative mx-auto">
@@ -25,7 +25,7 @@ function ContactHero() {
                   Contact us.
                   </h1>
                   <p className="mt-4 text-lg text-white">
-                  Want to learn more about web marketing levers, let us know about your project. Payron Digital Marketing is responsible for supporting you in the development of your visibility that could make your business more efficient
+                  Want to learn more about web marketing levers, let us know about your project. Payron Global is responsible for supporting you in the development of your visibility that could make your business more efficient
                   </p>
                 </div>
               </div>
@@ -34,7 +34,7 @@ function ContactHero() {
           
         </div>
 
-        <section className="pb-20 bg-green-100 -mt-24">
+        <section className="pb-20 bg-white -mt-24">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap">
            
@@ -42,7 +42,7 @@ function ContactHero() {
 
             <div className="flex flex-wrap items-center mt-32">
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
-                <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-green-600">
+                <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-brandButton">
                   <i className="fas fa-user-friends text-xl"></i>
                 </div>
                 <h3 className="text-3xl mb-2 font-semibold leading-normal">
@@ -55,13 +55,13 @@ function ContactHero() {
                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
                 
 
-We are a company developing website and web marketing in that has grown over the years to offer you the best services that may exist on the market..
+We are Payron Global, a company developing website and web marketing in Ethiopia and Dubai that has grown over the years to offer you the best services that may exist on the market.
                 </p>
                 
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-              <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-green-600 ">
+              <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-brandButton ">
                   <div className="flex-auto p-5 lg:p-10">
                     <h4 className="text-2xl text-white font-semibold">
                     Do you want to work wiht us?
@@ -113,7 +113,7 @@ We are a company developing website and web marketing in that has grown over the
                     </div>
                     <div className="text-center mt-6">
                       <button
-                        className="bg-white text-green-600 active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        className="bg-white text-brandHeadline active:bg-brandAccent text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button"
                       >
                         Send Message
